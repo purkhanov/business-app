@@ -1,11 +1,12 @@
 <template>
-  <main class="flex-grow">
+  <main class="container pt-1.5 pb-11">
     <RouterView  />
   </main>
-  <Navigation />
+
+  <NavBar />
 </template>
 
 <script setup>
-import Navigation from '@/components/Navigation.vue'
+import NavBar from '@/components/NavBar.vue'
 </script>
 

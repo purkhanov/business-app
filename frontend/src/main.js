@@ -9,7 +9,7 @@ import Aura from '@primevue/themes/aura'
 
 import './assets/index.css'
 import './assets/main.css'
-
+import 'primeicons/primeicons.css'
 
 const app = createApp(App)
 
@@ -18,7 +18,10 @@ app.use(router)
 
 app.use(PrimeVue, {
 	theme: {
-		preset: Aura
+		preset: Aura,
+		options: {
+			darkModeSelector: false
+		}
 	}
 })
 

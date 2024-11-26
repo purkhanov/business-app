@@ -1,16 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/ChartView.vue'
 
 const routes =  [
   {
     path: '/',
-    name: 'home',
-    component: () => import('@/views/ChartView.vue'),
+    name: 'analytics',
+    component: () => import('@/views/Analytics.vue'),
+  },
+  {
+    path: '/clients',
+    name: 'clients',
+    component: () => import('@/views/ClientsView.vue'),
+  },
+  {
+    path: '/companies',
+    name: 'companies',
+    component: () => import('@/views/CompanyView .vue'),
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes
 })
 
