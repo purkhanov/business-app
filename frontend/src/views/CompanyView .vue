@@ -1,10 +1,9 @@
 <template>
   <div class="container">
-    <ChartComponent />
+    <h1>Companies</h1>
   </div>
 </template>
 
 <script setup>
-import ChartComponent from '../components/ChartComponent.vue'
 </script>
 

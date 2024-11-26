@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-sky-400">
+  <div class="h-12 fixed bottom-0 left-0 right-0 bg-sky-400">
     <ul class="flex justify-around justify-items-center">
 
       <li class="p-2 hover:text-green-600">
